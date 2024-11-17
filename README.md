@@ -4,7 +4,7 @@ Repo for Write ups of THM
 ***
 
 # Content
-[Whois & dig](###Whois-&-dig)
+[Whois & dig](#Whois-and-dig)
 
 ***
 # Intro To Networking
@@ -21,7 +21,7 @@ It's to see the Path between you and the destination you set
 traceroute Dest
 ```
 
-### Whois & dig
+### Whois and dig
 This is a command to know about the Ip you want to
 ```bash
 whois IP
