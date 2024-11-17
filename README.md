@@ -221,7 +221,7 @@ so in this task we had see a scanning on the target IP machine and we seee just 
 
 this mode is the default 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/e466d2a8-8398-40ff-aeb9-3bb60b9d0700/image.png)
+![image.png](assets/1.png)
 
 this is the open port case, if not the closed port 
 
