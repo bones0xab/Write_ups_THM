@@ -7,7 +7,6 @@ Repo for Write ups of THM
 
 ***
 # Intro To Networking
---
 
 ### Ping
 ```bash
