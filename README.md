@@ -227,7 +227,7 @@ this is the open port case, if not the closed port
 
 this scan is special , what special is he s without handshake, if the client find the SYN , ACK , he send the RST
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/75551b03-863d-4b16-9a9e-6e64d07cfca1/image.png)
+![image.png](assets/2.png)
 
 illustrate the difference
 
@@ -243,7 +243,7 @@ this udp is connectioneless that mean without handshake and if the port is close
 
 when we sending the packet of UDP to open port we don t get back any response
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/d521a390-f9c1-4848-bf67-01f8320564ee/image.png)
+![image.png](assets/3.png)
 
 this is illustration for closed port we get back the reponse 
 
@@ -282,9 +282,9 @@ we have the probes that we can control those probes are for fast scanning we can
 
 SUMMARY 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/abfc735c-2e06-4575-81bd-bc6d5c7f8fe6/image.png)
+![image.png](assets/4.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/1f3bde96-e78c-4573-a8aa-93baf9a693e9/image.png)
+![image.png](assets/5.png)
 
 So in this room we see how to scan target and we see the states of ports scan and also the possible way to made the scan
 
@@ -315,13 +315,13 @@ what we will cover in this room
 →XMAS scan An Xmas scan sets the FIN, PSH, and URG flags simultaneously. You can select Xmas scan with the option **`-sX`**.
 like the previous ones  
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/3575fd84-459f-4feb-9990-3f6803a57071/image.png)
+![image.png](assets/6.png)
 
 - **TCP maimon scan**
 
 this scan set the FIN and ACK bits , and in the return we got the RST so we don t know if he s open or closed
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/6a876588-33f5-4237-b2ff-52effe072fc4/image.png)
+![image.png](assets/7.png)
 
 - TCP ACK, Window, and Custom Scan
 
@@ -329,7 +329,7 @@ this scan set the FIN and ACK bits , and in the return we got the RST so we don 
 
 this scan send the TCP packet with the flag ACK and we don t know the state of the port , we just got RST in response.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/cc3e93f9-5d98-4892-aeca-0d272e89fe99/image.png)
+![image.png](assets/8.png)
 
 `-sA`
 
@@ -357,9 +357,9 @@ In the cases of you can guarantee the response flag you can do this spoofing thi
 
 The spoofing here is to use IP like is you who send the packets and wait for responses so the attacker if he want to be anonymous he must you decoy , the concept of it is to send with many IP address 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/07e53461-0b7d-4a28-bc2d-170ec142fb03/image.png)
+![image.png](assets/10.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a278e308-9a46-4c09-9885-a4e5acab95ec/540caee2-3c9f-4bba-b5d8-c4dbb4ff3f19/image.png)
+![image.png](assets/11.png)
 
 we can made this spoofing with this command : 
 `nmap -e INTERFACE -Pn -S Spoofed ip target ip` 
