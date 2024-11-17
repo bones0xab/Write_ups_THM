@@ -4,7 +4,7 @@ Repo for Write ups of THM
 ***
 
 # Content
-[Whois & dig](#intro-to-Networking)
+[Whois & dig](#Whois & dig)
 
 ***
 # Intro To Networking
