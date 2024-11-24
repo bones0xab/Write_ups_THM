@@ -8,6 +8,7 @@ Repo for Write ups of THM
 
 2. [Nmap](#NMAP)
 
+3. [Nmap scan](#Nmap-Basic-Port-Scans)
 
 ***
 # Intro To Networking
