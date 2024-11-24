@@ -12,8 +12,6 @@ Repo for Write ups of THM
 
 4. [Nmap scan adv port](#Nmap-Advanced-Port-Scans)
 
-5. 
-
 ***
 # Intro To Networking
 
