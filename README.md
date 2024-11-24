@@ -4,9 +4,10 @@ Repo for Write ups of THM
 ***
 
 # Content
-[Intro](#Intro-To-Networking)
+1. [Intro](#Intro-To-Networking)
 
-[Nmap](#NMAP)
+2. [Nmap](#NMAP)
+
 
 ***
 # Intro To Networking
